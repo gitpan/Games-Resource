@@ -1,0 +1,16 @@
+BUGS
+CHANGES
+CREDITS
+MANIFEST
+README
+SIGNATURE
+LICENSE
+TODO
+Makefile.PL
+lib/Games/Resource.pm		# resource file management
+t/resource.t
+t/data/test.txt
+t/data/en/book1.txt
+t/data/books/book2.txt
+t/data/books/en/book3.txt
+t/data/books.zip

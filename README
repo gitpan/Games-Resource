@@ -1,0 +1,58 @@
+
+############################################################################## 
+Games::Resource - manage resource files for games
+
+DESCRIPTION
+===========
+
+This package provides a standard way to access your game resources stored
+in files. After setting up the paths and resource hints, you can simple
+specify the filename and the module will figure out where the file actually
+is.
+
+For some background information, as well reasoning why this was developed and
+why in this way, browse to:
+
+	http://bloodgate.com/perl/sdl/game.html
+
+Installation
+============
+
+* untar/ungzip the package (replace 0.03 with the version you got)
+
+	tar -xzf Games::Resource-0.01.tar.gz
+
+* Check the signature. Download my key from http://bloodgate.com/tels.asc or
+  from my CPAN directory. Then do in the build directory (where you unwrapped
+  stuff):
+
+	cpansign -v
+
+* if the signature verifies OK, proceed. Otherwise NOTIFY ME IMMIDIATELY. Do
+  NOT INSTALL THE PACKAGE! Your system might get compromised!
+
+* Build the make file:
+
+	perl Makefile.PL
+
+* Make the project
+
+	make
+
+* Run the tests:
+
+	make test
+
+* If some tests fail, please notify me.
+
+* If all tests pass, install as root:
+
+	su
+	[enter password]
+	make install
+	exit
+
+Please send me test-reports, your experiences with this and your ideas - I love
+to hear about my work!
+
+Tels <http://bloodgate.com/>

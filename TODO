@@ -1,0 +1,12 @@
+
+############################################################################## 
+Games::Resource:
+
+* other resource file formats than ZIP? Unfortunately, Archive::Rar looks
+  uncompatible...
+* resource_hints is not yet used, resulting in more operations than necc.
+
+Please send me test-reports, your experiences with this and your ideas - I love
+to hear about my work!
+
+Tels <http://bloodgate.com/>

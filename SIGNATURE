@@ -1,0 +1,42 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.21.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It would check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+
+SHA1 5b12daae218e08d0d62ba4e3faa0e34739d54699 BUGS
+SHA1 d4bc49c5ded6f244a4a99ed281c26795c71405e7 CHANGES
+SHA1 09acf5a0408dd9e92d430acdda09b8fc85a58cc9 CREDITS
+SHA1 d6a6c30ee6d9ba6b9afab8bbf6a25e1b23c744e0 LICENSE
+SHA1 781f6bc018579bce17c3f08d013efa6097919335 MANIFEST
+SHA1 1635b2545b07a443505a6388904d78415e16043f Makefile.PL
+SHA1 80aff3da92cf3b74054bb7667de4ebe3fed7d128 README
+SHA1 79e3c1a9f93e5ccfb5081f370802927a63b07d29 TODO
+SHA1 08575bd9743e02af39c56957e2cbc2d4eb2a3acf lib/Games/Resource.pm
+SHA1 0c648b5a226d253dac6d1d7d832cf2fd2ed43d31 t/data/books.zip
+SHA1 bcfad5aae1f0b11f26d99d6279826629b6695028 t/data/books/book2.txt
+SHA1 bcfad5aae1f0b11f26d99d6279826629b6695028 t/data/books/en/book3.txt
+SHA1 bcfad5aae1f0b11f26d99d6279826629b6695028 t/data/en/book1.txt
+SHA1 bcfad5aae1f0b11f26d99d6279826629b6695028 t/data/test.txt
+SHA1 8e414bbc30d6315779b3ad8fe85a935fa76fda60 t/resource.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.6 (GNU/Linux)
+Comment: When cryptography is outlawed, bayl bhgynjf jvyy unir cevinpl.
+
+iQEVAwUBPnTB7HcLPEOTuEwVAQE9Pgf+JjR+MaVJ0SJ+GHZpfOdhInkR7iogLQRw
+6UbsRQOkpz5t5+2/79sKiDOZYJvi7nyUs25tjnOECihsfQdqHfPIB2f6amyd/i+b
+TNrP6q8XS5FL0enrpPtwAr1h9fl5FnBcykcqtnQ925q+/Pv8tZDvCEGTdhfjX0d5
+EIqMOrEO4cskU1dHFDt9Ppbkk9y/dO4jAUDPLbYocW7LZLD0WkBcI4cyusJkGUt5
+PFA/872MG80X1cwssqMCh1HUFuMU++6p/bAftBX88qXrut0onymF0RQY8YzHS+8X
+dX8egNH1oOkRMd62IhCJlvYWZ6hvIy73TZcdnOsiim4Eq+I1rwpgTQ==
+=bCS/
+-----END PGP SIGNATURE-----
